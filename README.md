@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PixelCraft Agency | Next.js Design Agency Homepage
 
-## Getting Started
+A modern, responsive, and visually appealing Design Agency Homepage built with Next.js 16, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## Live Demo
+
+🔗 https://pixel-craft-agency.vercel.app
+
+## GitHub Repository
+
+🔗 https://github.com/d-dinesh21/PixelCraft-Agency
+
+## Features
+
+* Modern Hero Section with gradient background
+* Responsive Navigation Bar
+* Mobile Hamburger Menu
+* Services Section with interactive cards
+* Portfolio Showcase with optimized images
+* Contact Form with validation
+* Success state after form submission
+* Dynamic Copyright Year
+* Smooth scrolling navigation
+* Hover effects and modern UI interactions
+* SEO Metadata using Next.js Metadata API
+* Fully responsive design
+
+## Tech Stack
+
+### Frontend
+
+* Next.js 16 (App Router)
+* React 19
+* TypeScript
+* Tailwind CSS
+
+### Form Handling & Validation
+
+* React Hook Form
+* Zod
+
+### UI & Icons
+
+* Lucide React
+* Next/Image
+
+## Setup Instructions
 
 ```bash
+git clone https://github.com/d-dinesh21/PixelCraft-Agency.git
+cd PixelCraft-Agency
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Build for Production
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Additional Features Implemented
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Responsive design across devices
+* Mobile navigation menu
+* Portfolio image optimization
+* Interactive hover animations
+* Dynamic footer year
+* Form validation with custom error messages
+* Thank-you state after successful form submission
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Assumptions
 
-## Deploy on Vercel
+* Contact form is frontend-only and demonstrates validation functionality.
+* Portfolio projects are sample showcase projects.
+* Backend integration can be added later for storing contact form submissions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dinesh D
+
+GitHub: https://github.com/d-dinesh21
+
+Built with Next.js, TypeScript, and Tailwind CSS.
